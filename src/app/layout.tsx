@@ -20,14 +20,58 @@ export const metadata: Metadata = {
   creator: "Tolulope Orina",
   openGraph: {
     title: "Tolulope Orina - Solutions Architect & Data Scientist",
-    description: "AWS Golden Jacket holder with expertise in cloud architecture, machine learning, and full-stack development.",
+    description: "AWS Golden Jacket holder with expertise in cloud architecture, machine learning, and full-stack development. Currently working as a pre-sales solutions engineer.",
     type: "website",
     locale: "en_US",
+    url: "https://trex01.conquerorfoundation.com", // Replace with your actual domain
+    siteName: "Tolulope Orina Portfolio",
+    images: [
+      {
+        url: "/og-image.jpg", // You'll need to add this image to public folder
+        width: 1200,
+        height: 630,
+        alt: "Tolulope Orina - Solutions Architect & Data Scientist",
+        type: "image/jpeg",
+      },
+      {
+        url: "/og-image.png", // Alternative PNG version
+        width: 1200,
+        height: 630,
+        alt: "Tolulope Orina - Solutions Architect & Data Scientist",
+        type: "image/png",
+      }
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Tolulope Orina - Solutions Architect & Data Scientist",
     description: "AWS Golden Jacket holder with expertise in cloud architecture, machine learning, and full-stack development.",
+    images: ["/og-image.jpg"], // Same image for Twitter
+    creator: "@trexdevops", // Replace with your Twitter handle
+    site: "@trexdevops", // Replace with your Twitter handle
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  // verification: {
+  //   google: "your-google-verification-code", // Replace with your Google verification code
+  //   // yandex: "your-yandex-verification-code",
+  //   // yahoo: "your-yahoo-verification-code",
+  // },
+  alternates: {
+    canonical: "https://your-domain.com", // Replace with your actual domain
+  },
+  other: {
+    // WhatsApp specific metadata
+    "whatsapp-meta": "Tolulope Orina - AWS Golden Jacket holder and Solutions Architect with expertise in cloud architecture, machine learning, and full-stack development.",
   },
 };
 
